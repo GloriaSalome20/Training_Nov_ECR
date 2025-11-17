@@ -1,5 +1,5 @@
 ---
-title: Equity, Inclusion, and Accessibility
+title: Equity, Inclusion, and Accessibility{#equity}
 teaching: 20
 exercises: 20
 ---

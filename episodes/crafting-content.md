@@ -1,5 +1,5 @@
 ---
-title: Crafting Lesson Content
+title: Crafting Lesson Content{#crafting}
 teaching: 20
 exercises: 45
 ---
