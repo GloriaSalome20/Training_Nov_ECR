@@ -38,7 +38,7 @@ jobs:
         uses: rocker/r-ver@latest
         with:
           use-public-rspm: true
-          install-r: false
+          install-r: true
 
       - name: "Set up Pandoc"
         uses: r-lib/actions/setup-pandoc@v2
