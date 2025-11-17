@@ -92,9 +92,9 @@ days of the session, groups will lead the class through their short
 lesson and receive feedback. This session will have a mix of R and
 Python coders, so you will actually be teaching people something new!
 
-Take some time today or tomorrow to create a group of three people. Make
-sure all of your are familiar with the same programming language (R or
-Python). Begin to think about something you really enjoy about your
+Take some time today or tomorrow to create a group of two people. Make
+sure all of your are familiar with the same programming language (R).
+Begin to think about something you really enjoy about your
 programming language that you might like to share with others. Whatever
 it is, it must be *small*! Examples include:
 
@@ -189,59 +189,6 @@ console.
 
 Now, open a new R script and name it "install_python_packages.R". On the
 first line, type `library(reticulate)`.
-
-### Python packages
-
-Like R, Python has a robust system of libraries that need to be
-installed and loaded before they can be used. We can use our R script to
-install these packages using the `reticulate` function `py_install()`.
-
-On a lower line of your R script, type:
-
-```         
-py_install(c("pandas", "streamlit", "matplotlib"))
-```
-
-This should install the packages you will need to use in Python for this
-session. If you ever have trouble with a package loading, or you need to
-install a new package, we can come back and rerun or modify this script.
-
-### Test your installation
-
-From the top menu bar, select, "Session/New Session". A new R session
-will open. Check the label in the top right of the session:
-
-![](fig/rstudio_project.png)
-
-If it does not say "Project: (None)", you need to close the project
-you're in. Click on the label and select "Close Project". It should now
-say "Project: (None)" in the corner.
-
-Open a new **Python script** by going to File/New File/Python Script in
-the menu bar. Name it "test_python.py". Write the following:
-
-```         
-import pandas as pd
-import matplotlib.pyplot as plt
-import streamlit as st
-
-d = {'col1': [1, 2], 'col2': [3, 4]}
-df = pd.DataFrame(data=d)
-```
-
-Try running this code and see if it throws any errors. If it does, email
-Amelia at
-[amelia.bertozzi-villa\@gatesfoundation.org](mailto:amelia.bertozzi-villa@gatesfoundation.org){.email}.
-
-::: callout
-## Note for Python Users
-
-Even if you are a Python user who already has these packages installed,
-you will need to install them again using py_install. This is because
-`reticulate` creates a virtual environment to run Python from R, so it
-doesn't interfere with the instance of Python running on your main
-machine.
-:::
 
 ## Acknowledgment
 
