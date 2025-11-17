@@ -4,15 +4,9 @@ title: Setup
 
 ## Logistics
 
-We will meet every day from April 29th to May 10th, excluding the
-holiday on May 1st. Class will run from 9am to 1pm every day. We will
-meet at dLab Kilimanjaro Room, block D.
-
-Participants not in Dar should also be able to join remotely via this
-[zoom
-link](https://zoom.us/j/98559482416?pwd=UzA3ZVFJNS9ZRnFYamhhUW1RVG5QUT09){target="_blank"}.
-The meeting ID is 985 5948 2416, and the password is 213509. Sessions
-will be recorded if you are unable to join in-person or online.
+We will meet every day from November 24th to 28th.
+Class will run from 9am to 4pm every day, with lunch break at 1pm. We will
+meet at MAP office - conference room.
 
 ### Pre-Course Survey
 
