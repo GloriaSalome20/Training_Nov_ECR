@@ -15,8 +15,8 @@ on:
         default: 'Maintainer (via GitHub)'
       reset:
         description: 'Reset cached markdown files'
-        required: false
-        default: false
+        required: true
+        default: true
         type: boolean
 jobs:
   full-build:
